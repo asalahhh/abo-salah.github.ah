@@ -4,88 +4,17 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 0px;
     margin: 0px;
-    background: url(/pages/images/back-ground.jpg);
+    background: url(images/back-ground.jpg);
     background-size: cover;
 }
-.main_box{
-    position: relative;
-float: left;
-}
-.main_box .sidebar_menu{
-    position: fixed;
-    height: 100vh;
-    width: 280px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
-}
-.sidebar_menu .logo {
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5)
-}
-.sidebar_menu .logo a{
-    color: #fff;
-    font-size: 25px;
-    font-weight: 500;
-    position: absolute;
-    left: 50px;
-    line-height: 60ox;
-    text-decoration: none;
 
-}
-.sidebar_menu .menu{
-    position: absolute;
-    top: 80px;
-    width: 100%;
-
-}
-.sidebar_menu .menu li{
-    margin-top: 6px;
-    padding: 14px 20px;
-    transition: all 0.3s linear;
-}
-.sidebar_menu .menu i{
-    color: #fff;
-    font-size: 20px;
-    padding-right: 8px;
-
-}
-.sidebar_menu .menu a{
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-
-}
-.sidebar_menu .menu li:hover{
-    border-left:1px solid #fff ;
-    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
-
-}
-.sidebar_menu .social_media{
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    transform: translateX(-50%);
-    cursor: pointer;
-    color: #fff;
-    opacity: 0.6;
-    font-size: 20px;
-    transition: all 0.2s linear;
-}
-.social_media i:hover{
-    opacity: 1;
-}
-.social_media i {
-    padding: 0 5px;
-
-}
 .container {
     width: 88%;
     margin: auto;
     overflow: hidden;
 
 }
+
 
 .search {
     padding: 7px;
@@ -96,7 +25,7 @@ float: left;
     border-radius: 0 20px 20px 0;
 }
 
-button {
+.but1 {
     float: left;
     background: orange;
     color: white;
@@ -125,8 +54,7 @@ header {
     background: darkblue;
     color: white;
     padding-top: 30px;
-    ;
-    min-height: 70px;
+    min-height: 100px;
     border-bottom: yellow 5px solid;
     position: sticky;
     top: 0;
@@ -181,12 +109,12 @@ header a:hover {
     padding-top: calc(var(--section-padding)/2);
     padding-bottom: calc(var(--section-padding)/2);
     background: darkslateblue;
-    margin-top: 562px;
+    
     color: white;
     text-align: center;
 }
 
-/* footer::before{
+ footer::before{
     content: "";
     position: absolute;
     left: 0;
@@ -195,7 +123,7 @@ header a:hover {
     height: 100%;
     background-color: rgb(0 0 0 / 70%);
     
-} */
+} 
 .footer .container {
     position: relative;
 
@@ -218,6 +146,7 @@ header a:hover {
 
 .footer .copyright {
     margin-top: 20px;
+    margin-bottom: 10px;
 
 
 }
