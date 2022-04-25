@@ -56,7 +56,7 @@ span{
     border-radius: 30px;
     transition: .4s;
 }
-button:hover{
+.but:hover{
     background: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;

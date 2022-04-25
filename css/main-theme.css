@@ -58,7 +58,7 @@ header {
     border-bottom: yellow 5px solid;
     position: sticky;
     top: 0;
-
+    z-index: 1000;
 }
 
 header a {
@@ -73,11 +73,11 @@ header li {
 
 }
 
-header #brand {
+header .brand {
     float: left;
 }
 
-header #brand h1 {
+header .brand h1 {
     margin: 0;
     color: yellow;
 }
@@ -96,15 +96,6 @@ header a:hover {
     color: orange;
     font-weight: bold;
 }
-
-#cass {
-    min-height: 400px;
-    background: url("../images/brand.jpg") no-repeat center;
-    background-size: cover;
-}
-
-
-
 .footer {
     padding-top: calc(var(--section-padding)/2);
     padding-bottom: calc(var(--section-padding)/2);

@@ -72,7 +72,6 @@ body {
 }
 
 .box .sub {
-    background: transparent;
     border: none;
     outline: none;
     color: #fff;
@@ -81,6 +80,8 @@ body {
     cursor: pointer;
     border-radius: 10px;
     margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .bo{
     display: flex;
