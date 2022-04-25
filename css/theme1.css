@@ -15,10 +15,7 @@ body {
 
 
 .box {
-    
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
+
     width: 400px;
     padding: 40px;
     background: rgba(0, 0, 0, .8);
